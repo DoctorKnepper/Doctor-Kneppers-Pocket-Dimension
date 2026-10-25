@@ -1,0 +1,18 @@
+{
+  "item.dimensionalkey.dimensional_key": "Dimensional Key",
+  "item.dimensionalkey.dimensional_key.tooltip.use": "Use: travel to your pocket realm and back",
+  "item.dimensionalkey.dimensional_key.tooltip.sneak": "Sneak + Use: change the realm's sky",
+  "message.dimensionalkey.enter": "You step into your pocket realm.",
+  "message.dimensionalkey.leave": "You return to where you left from.",
+  "message.dimensionalkey.no_return": "Your way back was lost, so you've been sent to world spawn.",
+  "message.dimensionalkey.void_rescue": "The realm pulls you back onto your platform.",
+  "message.dimensionalkey.missing": "The pocket realm isn't loaded on this server.",
+  "message.dimensionalkey.sky": "Sky: %s",
+  "sky.dimensionalkey.natural": "Natural (day and night)",
+  "sky.dimensionalkey.eternal_day": "Eternal Day",
+  "sky.dimensionalkey.starry_night": "Starry Night",
+  "sky.dimensionalkey.golden_sunset": "Golden Sunset",
+  "sky.dimensionalkey.nebula": "Nebula",
+  "sky.dimensionalkey.the_end": "The End",
+  "sky.dimensionalkey.void": "Void"
+}

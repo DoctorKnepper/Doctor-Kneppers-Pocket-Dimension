@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.dimensionalkey.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ClientLevelMixin",
+		"SkyRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

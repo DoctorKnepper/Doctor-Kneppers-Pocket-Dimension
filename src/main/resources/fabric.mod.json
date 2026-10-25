@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "dimensionalkey",
+	"version": "${version}",
+	"name": "Dimensional Key",
+	"description": "Craft a Dimensional Key to visit your own private pocket realm: a 10x10 bedrock platform floating in the void, with a sky you choose.",
+	"authors": [
+		"DoctorKnepper"
+	],
+	"contact": {
+		"homepage": "https://github.com/DoctorKnepper/MC-Pocket-Dimension",
+		"sources": "https://github.com/DoctorKnepper/MC-Pocket-Dimension",
+		"issues": "https://github.com/DoctorKnepper/MC-Pocket-Dimension/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dimensionalkey/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dimensionalkey.DimensionalKeyMod"
+		],
+		"client": [
+			"com.dimensionalkey.client.DimensionalKeyClient"
+		]
+	},
+	"mixins": [
+		"dimensionalkey.mixins.json",
+		{
+			"config": "dimensionalkey.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
