@@ -1,4 +1,4 @@
-# Doctor Knepper's Dimensional Key
+# Doctor Knepper's Pocket Dimension
 
 Craft a Dimensional Key to visit your own private pocket realm: a 10x10 bedrock platform floating in the void, with a sky you choose.
 
